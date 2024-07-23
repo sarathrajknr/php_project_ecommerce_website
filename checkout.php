@@ -4,7 +4,7 @@ session_start();
 
 if(!empty($_SESSION['cart']) && isset($_POST['checkout'])){
 
-    //let user inside is hare here 
+    //let user inside is hare 
 
 
 
