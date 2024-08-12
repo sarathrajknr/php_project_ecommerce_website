@@ -77,7 +77,7 @@ if(!empty($_SESSION['cart']) && isset($_POST['checkout'])){
         <hr class="mx-auto">
     </div>
     <div class="mx-auto container">
-        <form id="checkout-form" action="server/place_order.php">
+        <form id="checkout-form" action="server/place_order.php" method="post">
             <div class="form-group checkout-small-element">
                 <label>Name</label>
                 <input type="text" class="form-control" id="checkout-name" name="name" placeholder="Name" required />

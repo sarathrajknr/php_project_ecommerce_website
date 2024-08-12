@@ -1,9 +1,13 @@
 <?php
+
 session_start();
 
 include('connection.php');
 
+
 if (isset($_POST['place_order'])) {
+   
+
 
     // Retrieve user info from POST request
     $name = $_POST['name'];
